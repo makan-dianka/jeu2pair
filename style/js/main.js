@@ -1,4 +1,5 @@
 const containerCard = document.getElementById("container-card")
+let nameImg = []
 
 let card = [
     ['Dardevil1', 'Dardevil2', 'DrStrange1', 'DrStrange2'],
@@ -22,20 +23,27 @@ function jeuCard(){
     containerCard.innerHTML = grid
 }
 
+function img(){   
+    for (let i = 0; i < card.length; i++){
+        for (let j = 0; j < card[i].length; j++){
+            nameImg.push(card[i][j] +'.jpg')
+        }; 
+    }
+} 
+  
+img()
+
 function getBtn(){
     let btns = document.getElementsByClassName('btn')
-    for (let btn of btns){       
-        for (let i = 0; i < card.length; i++){
-            for (let j = 0; j < card[i].length; j++){
-                btn.addEventListener('click', () => {
-                btn.innerHTML = "<img src="+"style/img/"+card[i][j]+".jpg"+" height=300 width=250>"
-            })
-
-            }; 
-        }
+    for (let i = 0; i < btns.length; i++){ 
+        let image = nameImg[i]
+        let btn = btns[i]
+        btn.addEventListener('click', () => {
+        btn.innerHTML = "<img src="+"style/img/"+image+" height=300 width=250>"
+        })
     } 
-    
-}   
+}
+
 getBtn()
 
 
