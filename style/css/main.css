@@ -1,3 +1,4 @@
+/* ======= mis en page du div principal =======*/
 #container-card{
     padding: 15px;
     text-align: center;
@@ -7,15 +8,18 @@ h1{
     text-align: center;
 }
 
+/* =========== boutton js | btn générer par js (voir main.js) ============ */
 .btn{
     padding: 10px;
     margin: 10;
 }
 
+/* =========== grid js | grid générer par js (voir main.js) ============ */
 .gridCard{
     padding: 5px;
 }
 
+/* =========== boutton js | btn générer par js (voir main.js) ============ */
 #butt{
     padding: 10px;
     margin: 10px;
