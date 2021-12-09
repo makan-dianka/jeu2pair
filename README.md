@@ -4,10 +4,7 @@
 sont identique alors vous avez gagné sinon vous avez perdu. dans tous les cas vous pouvez rejouer.
 la position du cartes sont générer aléatoirement> 
 
-**demo**
-<br />
+**Demo**
 
-<video width="320" height="240" controls>
-<source src="/style/demo/demo.mp4" type=video/mp4>
-</video>
+<a href="style/demo/demo.mp4">Voir la video (demo)</a>
 
