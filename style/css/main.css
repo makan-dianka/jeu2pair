@@ -1,28 +1,54 @@
-/* ======= mis en page du div principal =======*/
-#container-card{
-    padding: 15px;
+table {
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+#boitemodale {
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 500px;
     text-align: center;
+    z-index: 1000;
+    color: #e0424f;
+    -webkit-text-stroke: 3px #1f93ae;
+    background-image: url(img/fondgagne3.png);
+    background-size: 100% 100%;
+}
+
+h1, h3, #demarrer{
+    margin-left: 35%;
 }
 
 h1{
-    text-align: center;
+    margin-top: 50px !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* =========== boutton js | btn générer par js (voir main.js) ============ */
-.btn{
-    padding: 10px;
-    margin: 10;
+p {
+    font-size: 55px;
+    margin-top: 220px;
+    color: #e0424f;
+    -webkit-text-stroke: 3px #1f93ae;
 }
 
-/* =========== grid js | grid générer par js (voir main.js) ============ */
-.gridCard{
-    padding: 5px;
-}
-
-/* =========== boutton js | btn générer par js (voir main.js) ============ */
-#butt{
-    padding: 10px;
-    margin: 10px;
-    /* background-color: blue; */
-    color: white;
+#cpteur {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    width: 90%;
+    height: 100px;
+    font-size: 75px;
+    margin-top: -125px;
+    margin-right: -300px;
+    color: #e0424f;
+    -webkit-text-stroke: 3px #1f93ae;
 }
