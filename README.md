@@ -3,5 +3,7 @@ sont identique alors vous avez gagné sinon vous avez perdu. dans tous les cas v
 la position du cartes sont générer aléatoirement>
 
 **Demo**
-
-![jeu-de-pair (Demo)](https://gitlab.com/dmakan/jeu-de-pair/-/blob/main/demo/demo.mp4)
+<video controls width="250">
+    <source src="https://gitlab.com/dmakan/jeu-de-pair/-/blob/main/demo/demo.mp4" type="video/mp4">
+    jeu de pair
+</video>
