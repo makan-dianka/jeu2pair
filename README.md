@@ -6,5 +6,5 @@ la position du cartes sont générer aléatoirement>
 
 **Demo**
 
-<a href="style/demo/demo.mp4">Voir la video (demo)</a>
+<a href="demo/demo.mp4">Voir la video (demo)</a>
 
