@@ -1,5 +1,4 @@
-https://gitlab.com/dmakan/jeu-de-pair/-/blob/main/demo/demo.mp4
-
+![jeu-de-pair](https://gitlab.com/dmakan/jeu-de-pair/-/blob/main/demo/demo.mp4)
 `Jeu des pairs`
 
 > jeu de hazard, jeu de pair. jouer avec des carte, selectionner 2 cartes si les cartes séléctionné
